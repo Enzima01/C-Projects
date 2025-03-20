@@ -58,10 +58,10 @@ int main() {
     printf(" |____/|_|\\_\\\\___/|_____/____|  by Enzima01\n\n\n");
     printf(" 1) CALCULADORA \n\n");
     printf(" 2) CONVERSOR DE MEDIDAS\n\n");
-    printf(" 3) ÕNDICE DE MASSA CORPORAL (IMC)\n\n");
+    printf(" 3) √çNDICE DE MASSA CORPORAL (IMC)\n\n");
     printf(" 4) CHUTE PARA ALTERNATIVAS\n\n");
-    printf(" 5) SIM OU N√O\n\n");
-    printf("Digite o n˙mero para a determinada funÁ„o: ");
+    printf(" 5) SIM OU N√ÉO\n\n");
+    printf("Digite o n√∫mero para a determinada fun√ß√£o: ");
     scanf("%d" , &funcao);
 
 
@@ -76,12 +76,12 @@ if(funcao == 1){
         printf(" |____/|_|\\_\\\\___/|_____/____|  \n\n\n");
         printf("| CALCULADORA | \n \n");
         printf(" 1) SOMA \n\n" );
-        printf(" 2) SUBTRA«√O \n\n");
-        printf(" 3) MULTIPLICA«√O \n\n");
-        printf(" 4) DIVIS√O \n\n");
-        printf(" 5) EQUA«’ES \n\n");
+        printf(" 2) SUBTRA√á√ÉO \n\n");
+        printf(" 3) MULTIPLICA√á√ÉO \n\n");
+        printf(" 4) DIVIS√ÉO \n\n");
+        printf(" 5) EQUA√á√ïES \n\n");
 
-        printf("Digite o n˙mero (1-4) para a determinada operaÁ„o: ");
+        printf("Digite o n√∫mero (1-4) para a determinada opera√ß√£o: ");
         scanf("%d" , &operacao_calc);
 }
 
@@ -89,9 +89,9 @@ if(funcao == 1){
 
         system("cls");
         printf(" | SOMA |\n\n");
-        printf(" Digite o primeiro n˙mero: ");
+        printf(" Digite o primeiro n√∫mero: ");
         scanf("%f",&n1);
-        printf("\n Digite o segundo n˙mero: ");
+        printf("\n Digite o segundo n√∫mero: ");
         scanf("%f",&n2);
         resultado = n1 + n2;
         printf("\n------------------");
@@ -101,10 +101,10 @@ if(funcao == 1){
 
         if (operacao_calc == 2){
         system("cls");
-        printf(" | SUBTRA«√O |\n\n");
-        printf(" Digite o primeiro n˙mero: ");
+        printf(" | SUBTRA√á√ÉO |\n\n");
+        printf(" Digite o primeiro n√∫mero: ");
         scanf("%f",&n1);
-        printf("\n Digite o segundo n˙mero: ");
+        printf("\n Digite o segundo n√∫mero: ");
         scanf("%f",&n2);
         resultado = n1 - n2;
         printf("\n------------------");
@@ -114,10 +114,10 @@ if(funcao == 1){
 
         if (operacao_calc == 3){
         system("cls");
-        printf(" | MULTIPLICAC√O | \n\n");
-        printf(" Digite o primeiro n˙mero: ");
+        printf(" | MULTIPLICAC√ÉO | \n\n");
+        printf(" Digite o primeiro n√∫mero: ");
         scanf("%f",&n1);
-        printf("\n Digite o segundo n˙mero: ");
+        printf("\n Digite o segundo n√∫mero: ");
         scanf("%f",&n2);
         resultado = n1 * n2;
         printf("\n------------------");
@@ -127,10 +127,10 @@ if(funcao == 1){
 
         if (operacao_calc == 4){
         system("cls");
-        printf(" | DIVIS√O | \n\n");
-        printf(" Digite o primeiro n˙mero: ");
+        printf(" | DIVIS√ÉO | \n\n");
+        printf(" Digite o primeiro n√∫mero: ");
         scanf("%f",&n1);
-        printf("\n Digite o segundo n˙mero: ");
+        printf("\n Digite o segundo n√∫mero: ");
         scanf("%f",&n2);
         resultado = n1 / n2;
         printf("\n------------------");
@@ -145,10 +145,10 @@ if(funcao == 1){
             printf(" \\___ \\| ' /| | | | |     / /   \n");
             printf("  ___) | . \\| |_| | |___ / /_   \n");
             printf(" |____/|_|\\_\\\\___/|_____/____|  \n\n\n");
-            printf(" | EQUA«’ES |\n\n");
-            printf(" 1) EQUA«√O DO 1 GRAU\n\n");
-            printf(" 2) EQUA«√O DO 2 GRAU\n\n");
-            printf("Digite o n˙mero (1-2) para a determinada operaÁ„o: ");
+            printf(" | EQUA√á√ïES |\n\n");
+            printf(" 1) EQUA√á√ÉO DO 1 GRAU\n\n");
+            printf(" 2) EQUA√á√ÉO DO 2 GRAU\n\n");
+            printf("Digite o n√∫mero (1-2) para a determinada opera√ß√£o: ");
             scanf("%d", &equacao);
             if(equacao == 1){
                 system("cls");
@@ -157,16 +157,16 @@ if(funcao == 1){
                 printf(" \\___ \\| ' /| | | | |     / /   \n");
                 printf("  ___) | . \\| |_| | |___ / /_   \n");
                 printf(" |____/|_|\\_\\\\___/|_____/____|  \n\n\n");
-                printf(" | EQUA«√O DO 1 GRAU |\n\n");
+                printf(" | EQUA√á√ÉO DO 1 GRAU |\n\n");
                 printf(" Digite o valor de A: ");
                 scanf("%f", &a1);
                 printf("\n Digite o valor de B: ");
                 scanf("%f", &b1);
                 if (a1 == 0) {
                     if (b1 == 0) {
-                    printf("A equaÁ„o tem infinitas soluÁıes\n");
+                    printf("A equa√ß√£o tem infinitas solu√ß√µes\n");
                     }   else {
-                            printf("A equaÁ„o n„o tem soluÁ„o!\n");
+                            printf("A equa√ß√£o n√£o tem solu√ß√£o!\n");
                         }
                 }           else {
                                 xeq1 = -b1 / a1;
@@ -183,11 +183,11 @@ if(funcao == 1){
                 printf(" \\___ \\| ' /| | | | |     / /   \n");
                 printf("  ___) | . \\| |_| | |___ / /_   \n");
                 printf(" |____/|_|\\_\\\\___/|_____/____|  \n\n\n");
-                printf(" | EQUA«√O DO 2 GRAU |\n\n");
+                printf(" | EQUA√á√ÉO DO 2 GRAU |\n\n");
                 printf(" Digite o valor de A: ");
                 scanf("%f", &a);
                 if(a  == 0){
-                printf("\n\n ImposÌvel calcular! A negativo!!");
+                printf("\n\n Impos√≠vel calcular! A negativo!!");
                 }
             else{
                 printf("\n Digite o valor de B: ");
@@ -202,12 +202,12 @@ if(funcao == 1){
 
             if(delta < 0){
             printf("\n Delta = %.2f", delta);
-            printf("\n\n ImposÌvel calcular! Delta negativo!!");
+            printf("\n\n Impos√≠vel calcular! Delta negativo!!");
             }
             else{
-                printf("\n Delta È igual a: %.2f", delta);
+                printf("\n Delta √© igual a: %.2f", delta);
                 printf("\n\n==============================\n");
-                printf("   | DESCOBRIR AS RAÕZES |\n");
+                printf("   | DESCOBRIR AS RA√çZES |\n");
                 printf("\n X = (-B +- raiz de Delta) / 2 * A\n");
                 printf("\n X = (- %.2f +- raiz de %2.f) / 2 * %.2f", b, delta, a);
                 x1 = (-b + sqrt(delta)) / (2 * a);
@@ -232,7 +232,7 @@ if(funcao == 2){
     printf(" 2) VELOCIDADE \n\n");
     printf(" 3) COMPRIMENTO \n\n");
     printf(" 4) PESO \n\n");
-    printf("Digite o n˙mero (1-4) para a determinada operaÁ„o: ");
+    printf("Digite o n√∫mero (1-4) para a determinada opera√ß√£o: ");
     scanf("%d" , &operacao_unimedida);
 }
 if(operacao_unimedida == 1){
@@ -244,25 +244,25 @@ if(operacao_unimedida == 1){
         printf(" |____/|_|\\_\\\\___/|_____/____|  \n\n\n");
         printf("| CONVERSOR DE TEMPERATURA | \n\n\n");
 
-        printf("          |CELSIUS(∞C)|\n");
+        printf("          |CELSIUS(¬∞C)|\n");
         printf(" -----------------------------------");
-        printf("\n 1) Celsius(∞C) --> Fahrenheit(∞F)\n");
-        printf("\n 2) Celsius(∞C) --> Kelvin(K)\n");
+        printf("\n 1) Celsius(¬∞C) --> Fahrenheit(¬∞F)\n");
+        printf("\n 2) Celsius(¬∞C) --> Kelvin(K)\n");
         printf(" -----------------------------------\n\n");
 
-        printf("          |FAHRENHEIT(∞F)|\n");
+        printf("          |FAHRENHEIT(¬∞F)|\n");
         printf(" -----------------------------------\n");
-        printf(" 3) Fahrenheit(∞F) --> Celsius(∞C)\n");
-        printf("\n 4) Fahrenheit(∞F) --> Kelvin(K)\n");
+        printf(" 3) Fahrenheit(¬∞F) --> Celsius(¬∞C)\n");
+        printf("\n 4) Fahrenheit(¬∞F) --> Kelvin(K)\n");
         printf(" -----------------------------------\n\n");
 
         printf("            |KELVIN(K)|\n");
         printf(" -----------------------------------\n");
-        printf(" 5) Kelvin(K) --> Celsius(∞C) \n");
-        printf("\n 6) Kelvin(K) --> Fahrenheit(∞F)\n");
+        printf(" 5) Kelvin(K) --> Celsius(¬∞C) \n");
+        printf("\n 6) Kelvin(K) --> Fahrenheit(¬∞F)\n");
         printf(" -----------------------------------\n\n");
 
-        printf("Digite o n˙mero (1-6) para a determinada operaÁ„o: ");
+        printf("Digite o n√∫mero (1-6) para a determinada opera√ß√£o: ");
         scanf("%d" , &operacao_temperatura);
 
 }
@@ -273,12 +273,12 @@ if(operacao_unimedida == 1){
             printf(" \\___ \\| ' /| | | | |     / /   \n");
             printf("  ___) | . \\| |_| | |___ / /_   \n");
             printf(" |____/|_|\\_\\\\___/|_____/____|  \n\n\n");
-            printf("| Celsius(∞C) --> Fahrenheit(∞F) |\n\n");
-            printf(" Digite o valor da temperatura (∞C): ");
+            printf("| Celsius(¬∞C) --> Fahrenheit(¬∞F) |\n\n");
+            printf(" Digite o valor da temperatura (¬∞C): ");
             scanf("%d", &celsius_1);
             fahrenheit_1 = (celsius_1 * 9/5) + 32;
             printf("\n-----------------------------");
-            printf("\n VALOR EM FAHRENHEIT: %d∞F",fahrenheit_1);
+            printf("\n VALOR EM FAHRENHEIT: %d¬∞F",fahrenheit_1);
             printf("\n-----------------------------");
         }
 
@@ -289,8 +289,8 @@ if(operacao_unimedida == 1){
             printf(" \\___ \\| ' /| | | | |     / /   \n");
             printf("  ___) | . \\| |_| | |___ / /_   \n");
             printf(" |____/|_|\\_\\\\___/|_____/____|  \n\n\n");
-            printf("| Celsius(∞C) --> Kelvin(K) |\n\n");
-            printf(" Digite o valor da temperatura (∞C): ");
+            printf("| Celsius(¬∞C) --> Kelvin(K) |\n\n");
+            printf(" Digite o valor da temperatura (¬∞C): ");
             scanf("%d", &celsius_1);
             kelvin_1 = celsius_1 + 273;
             printf("\n-----------------------------");
@@ -305,12 +305,12 @@ if(operacao_unimedida == 1){
             printf(" \\___ \\| ' /| | | | |     / /   \n");
             printf("  ___) | . \\| |_| | |___ / /_   \n");
             printf(" |____/|_|\\_\\\\___/|_____/____|  \n\n\n");
-            printf("| Fahrenheit(∞F) --> Celsius(∞C) |\n\n");
-            printf(" Digite o valor da temperatura (∞F): ");
+            printf("| Fahrenheit(¬∞F) --> Celsius(¬∞C) |\n\n");
+            printf(" Digite o valor da temperatura (¬∞F): ");
             scanf("%d", &fahrenheit_1);
             celsius_1 = (fahrenheit_1 - 32) * 5/9;
             printf("\n-----------------------------");
-            printf("\n VALOR EM CELSIUS: %d∞C",celsius_1);
+            printf("\n VALOR EM CELSIUS: %d¬∞C",celsius_1);
             printf("\n-----------------------------");
 
         }
@@ -322,12 +322,12 @@ if(operacao_unimedida == 1){
             printf(" \\___ \\| ' /| | | | |     / /   \n");
             printf("  ___) | . \\| |_| | |___ / /_   \n");
             printf(" |____/|_|\\_\\\\___/|_____/____|  \n\n\n");
-            printf("| Fahrenheit(∞F) --> Kelvin(K) |\n\n");
-            printf(" Digite o valor da temperatura (∞F): ");
+            printf("| Fahrenheit(¬∞F) --> Kelvin(K) |\n\n");
+            printf(" Digite o valor da temperatura (¬∞F): ");
             scanf("%d", &fahrenheit_1);
             kelvin_1 = (fahrenheit_1 - 32) * 5/9 + 273;
             printf("\n-----------------------------");
-            printf("\n VALOR EM KELVIN: %d∞K",kelvin_1);
+            printf("\n VALOR EM KELVIN: %d¬∞K",kelvin_1);
             printf("\n-----------------------------");
 
         }
@@ -339,12 +339,12 @@ if(operacao_unimedida == 1){
             printf(" \\___ \\| ' /| | | | |     / /   \n");
             printf("  ___) | . \\| |_| | |___ / /_   \n");
             printf(" |____/|_|\\_\\\\___/|_____/____|  \n\n\n");
-            printf("| Kelvin(K) --> Celsius(∞C) |\n\n");
+            printf("| Kelvin(K) --> Celsius(¬∞C) |\n\n");
             printf(" Digite o valor da temperatura (K): ");
             scanf("%d", &kelvin_1);
             celsius_1 = kelvin_1 - 273;
             printf("\n-----------------------------");
-            printf("\n VALOR EM CELSIUS: %d∞C",celsius_1);
+            printf("\n VALOR EM CELSIUS: %d¬∞C",celsius_1);
             printf("\n-----------------------------");
 
         }
@@ -356,12 +356,12 @@ if(operacao_unimedida == 1){
             printf(" \\___ \\| ' /| | | | |     / /   \n");
             printf("  ___) | . \\| |_| | |___ / /_   \n");
             printf(" |____/|_|\\_\\\\___/|_____/____|  \n\n\n");
-            printf("| Kelvin(K) --> Fahrenheit(∞F) |\n\n");
+            printf("| Kelvin(K) --> Fahrenheit(¬∞F) |\n\n");
             printf(" Digite o valor da temperatura (K): ");
             scanf("%d", &kelvin_1);
             fahrenheit_1 = (kelvin_1 - 273) * 9/5 + 32;
             printf("\n-----------------------------");
-            printf("\n VALOR EM FAHRENHEIT: %d∞F",fahrenheit_1);
+            printf("\n VALOR EM FAHRENHEIT: %d¬∞F",fahrenheit_1);
             printf("\n-----------------------------");
 
         }
@@ -377,23 +377,23 @@ if(operacao_unimedida == 2){
 
         printf("                          |KM/H|");
         printf(" \n------------------------------------------------------------");
-        printf("\n 1) QuilÙmetros por hora (Km/h) --> Metros por segundo (m/s)\n\n");
-        printf(" 2) QuilÙmetros por hora (Km/h) --> Milhas por hora (mph)\n");
+        printf("\n 1) Quil√¥metros por hora (Km/h) --> Metros por segundo (m/s)\n\n");
+        printf(" 2) Quil√¥metros por hora (Km/h) --> Milhas por hora (mph)\n");
         printf(" ------------------------------------------------------------\n\n");
 
         printf("                           |M/S|");
         printf(" \n------------------------------------------------------------");
-        printf("\n 3) Metros por segundo (m/s) --> QuilÙmetros por hora (Km/h)\n\n");
+        printf("\n 3) Metros por segundo (m/s) --> Quil√¥metros por hora (Km/h)\n\n");
         printf(" 4) Metros por segundo (m/s) --> Milhas por hora (mph)\n");
         printf(" ------------------------------------------------------------\n\n");
 
         printf("                           |MPH|");
         printf(" \n------------------------------------------------------------");
-        printf("\n 5) Milhas por hora (mph) --> QuilÙmetros por hora (Km/h)\n\n");
+        printf("\n 5) Milhas por hora (mph) --> Quil√¥metros por hora (Km/h)\n\n");
         printf(" 6) Milhas por hora (mph) --> Metros por segundo (m/s)\n");
         printf(" ------------------------------------------------------------\n\n");
 
-        printf("Digite o n˙mero (1-6) para a determinada operaÁ„o: ");
+        printf("Digite o n√∫mero (1-6) para a determinada opera√ß√£o: ");
         scanf("%d" , &operacao_velocidade);
 
         if(operacao_velocidade == 1){
@@ -403,7 +403,7 @@ if(operacao_unimedida == 2){
             printf(" \\___ \\| ' /| | | | |     / /   \n");
             printf("  ___) | . \\| |_| | |___ / /_   \n");
             printf(" |____/|_|\\_\\\\___/|_____/____|  \n\n\n");
-            printf("| QuilÙmetros por hora (Km/h) --> Metros por segundo (m/s) |\n\n");
+            printf("| Quil√¥metros por hora (Km/h) --> Metros por segundo (m/s) |\n\n");
             printf(" Digite o valor da velocidade (Km/h): ");
             scanf("%f", &kmh);
             ms = kmh / 3.6;
@@ -419,7 +419,7 @@ if(operacao_unimedida == 2){
             printf(" \\___ \\| ' /| | | | |     / /   \n");
             printf("  ___) | . \\| |_| | |___ / /_   \n");
             printf(" |____/|_|\\_\\\\___/|_____/____|  \n\n\n");
-            printf("| QuilÙmetros por hora (Km/h) --> Milhas por hora (mph) |\n\n");
+            printf("| Quil√¥metros por hora (Km/h) --> Milhas por hora (mph) |\n\n");
             printf(" Digite o valor da velocidade (Km/h): ");
             scanf("%f", &kmh);
             mph = kmh/1.609;
@@ -435,12 +435,12 @@ if(operacao_unimedida == 2){
             printf(" \\___ \\| ' /| | | | |     / /   \n");
             printf("  ___) | . \\| |_| | |___ / /_   \n");
             printf(" |____/|_|\\_\\\\___/|_____/____|  \n\n\n");
-            printf("| Metros por segundo (m/s) --> QuilÙmetros por hora (Km/h) |\n\n");
+            printf("| Metros por segundo (m/s) --> Quil√¥metros por hora (Km/h) |\n\n");
             printf(" Digite o valor da velocidade (m/s): ");
             scanf("%f", &ms);
             kmh = ms * 3.6;
             printf("\n--------------------------------------------");
-            printf("\n VALOR EM QUIL‘METROS POR HORAS: %.2f Km/h", kmh);
+            printf("\n VALOR EM QUIL√îMETROS POR HORAS: %.2f Km/h", kmh);
             printf("\n--------------------------------------------");
 
         }
@@ -468,12 +468,12 @@ if(operacao_unimedida == 2){
             printf(" \\___ \\| ' /| | | | |     / /   \n");
             printf("  ___) | . \\| |_| | |___ / /_   \n");
             printf(" |____/|_|\\_\\\\___/|_____/____|  \n\n\n");
-            printf("| Milhas por hora (mph) --> QuilÙmetros por hora (Km/h) |\n\n");
+            printf("| Milhas por hora (mph) --> Quil√¥metros por hora (Km/h) |\n\n");
             printf(" Digite o valor da velocidade (mph): ");
             scanf("%f", &mph);
             kmh = mph * 1.609;
             printf("\n--------------------------------------------");
-            printf("\n VALOR EM QUIL‘METROS POR HORAS: %.2f Km/h", kmh);
+            printf("\n VALOR EM QUIL√îMETROS POR HORAS: %.2f Km/h", kmh);
             printf("\n--------------------------------------------");
         }
 
@@ -505,23 +505,23 @@ if (operacao_unimedida == 3) {
             printf("| CONVERSOR DE COMPRIMENTO | \n\n\n");
             printf("                   |KM|");
             printf("\n------------------------------------------\n");
-            printf(" 1) QuilÙmetros (km) --> Metros (m)\n\n");
-            printf(" 2) QuilÙmetros (km) --> CentÌmetros (cm)");
+            printf(" 1) Quil√¥metros (km) --> Metros (m)\n\n");
+            printf(" 2) Quil√¥metros (km) --> Cent√≠metros (cm)");
             printf("\n------------------------------------------\n\n");
 
             printf("                   |M|");
             printf("\n------------------------------------------\n");
-            printf(" 3) Metros (m) --> QuilÙmetros (km)\n\n");
-            printf(" 4) Metros (m) --> CentÌmetros (cm)");
+            printf(" 3) Metros (m) --> Quil√¥metros (km)\n\n");
+            printf(" 4) Metros (m) --> Cent√≠metros (cm)");
             printf("\n------------------------------------------\n\n");
 
             printf("                   |CM|");
             printf("\n------------------------------------------\n");
-            printf(" 5) CentÌmetros (cm) --> QuilÙmetros (km)\n\n");
-            printf(" 6) CentÌmetros (cm) --> Metros (m)");
+            printf(" 5) Cent√≠metros (cm) --> Quil√¥metros (km)\n\n");
+            printf(" 6) Cent√≠metros (cm) --> Metros (m)");
             printf("\n------------------------------------------\n\n");
 
-            printf("Digite o n˙mero (1-6) para a determinada operaÁ„o: ");
+            printf("Digite o n√∫mero (1-6) para a determinada opera√ß√£o: ");
             scanf("%d" , &operacao_comprimento);
 }
             if(operacao_comprimento == 1){
@@ -531,7 +531,7 @@ if (operacao_unimedida == 3) {
                 printf(" \\___ \\| ' /| | | | |     / /   \n");
                 printf("  ___) | . \\| |_| | |___ / /_   \n");
                 printf(" |____/|_|\\_\\\\___/|_____/____|  \n\n\n");
-                printf("| QuilÙmetros (km) --> Metros (m) |\n\n");
+                printf("| Quil√¥metros (km) --> Metros (m) |\n\n");
                 printf(" Digite o valor do comprimento (km): ");
                 scanf("%f", &km);
                 m = km * 1000;
@@ -547,12 +547,12 @@ if (operacao_unimedida == 3) {
                 printf(" \\___ \\| ' /| | | | |     / /   \n");
                 printf("  ___) | . \\| |_| | |___ / /_   \n");
                 printf(" |____/|_|\\_\\\\___/|_____/____|  \n\n\n");
-                printf("| QuilÙmetros (km) --> CentÌmetros (cm) |\n\n");
+                printf("| Quil√¥metros (km) --> Cent√≠metros (cm) |\n\n");
                 printf(" Digite o valor do comprimento (km): ");
                 scanf("%f", &km);
                 cm = km * 100000;
                 printf("\n------------------------------------");
-                printf("\n VALOR EM CENTÕMETROS: %.2f cm",cm);
+                printf("\n VALOR EM CENT√çMETROS: %.2f cm",cm);
                 printf("\n------------------------------------");
             }
 
@@ -563,12 +563,12 @@ if (operacao_unimedida == 3) {
                 printf(" \\___ \\| ' /| | | | |     / /   \n");
                 printf("  ___) | . \\| |_| | |___ / /_   \n");
                 printf(" |____/|_|\\_\\\\___/|_____/____|  \n\n\n");
-                printf("| Metros (m) --> QuilÙmetros (km) |\n\n");
+                printf("| Metros (m) --> Quil√¥metros (km) |\n\n");
                 printf(" Digite o valor do comprimento (m): ");
                 scanf("%f", &m);
                 km = m / 1000;
                 printf("\n------------------------------------");
-                printf("\n VALOR EM QUIL‘METROS: %.2f km",km);
+                printf("\n VALOR EM QUIL√îMETROS: %.2f km",km);
                 printf("\n------------------------------------");
 
             }
@@ -580,12 +580,12 @@ if (operacao_unimedida == 3) {
                 printf(" \\___ \\| ' /| | | | |     / /   \n");
                 printf("  ___) | . \\| |_| | |___ / /_   \n");
                 printf(" |____/|_|\\_\\\\___/|_____/____|  \n\n\n");
-                printf("| Metros (m) --> CentÌmetros (cm) |\n\n");
+                printf("| Metros (m) --> Cent√≠metros (cm) |\n\n");
                 printf(" Digite o valor do comprimento (m): ");
                 scanf("%f", &m);
                 cm = m * 100;
                 printf("\n------------------------------------");
-                printf("\n VALOR EM CENTÕMETROS: %.2f cm",cm);
+                printf("\n VALOR EM CENT√çMETROS: %.2f cm",cm);
                 printf("\n------------------------------------");
             }
 
@@ -596,12 +596,12 @@ if (operacao_unimedida == 3) {
                 printf(" \\___ \\| ' /| | | | |     / /   \n");
                 printf("  ___) | . \\| |_| | |___ / /_   \n");
                 printf(" |____/|_|\\_\\\\___/|_____/____|  \n\n\n");
-                printf("| CentÌmetros (cm) --> QuilÙmetros (km) |\n\n");
+                printf("| Cent√≠metros (cm) --> Quil√¥metros (km) |\n\n");
                 printf(" Digite o valor do comprimento (cm): ");
                 scanf("%f", &cm);
                 km = cm / 100000;
                 printf("\n------------------------------------");
-                printf("\n VALOR EM QUIL‘METROS: %.2f km",km);
+                printf("\n VALOR EM QUIL√îMETROS: %.2f km",km);
                 printf("\n------------------------------------");
             }
 
@@ -612,7 +612,7 @@ if (operacao_unimedida == 3) {
                 printf(" \\___ \\| ' /| | | | |     / /   \n");
                 printf("  ___) | . \\| |_| | |___ / /_   \n");
                 printf(" |____/|_|\\_\\\\___/|_____/____|  \n\n\n");
-                printf("| CentÌmetros (cm) --> Metros (m) |\n\n");
+                printf("| Cent√≠metros (cm) --> Metros (m) |\n\n");
                 printf(" Digite o valor do comprimento (cm): ");
                 scanf("%f", &cm);
                 m = cm / 100;
@@ -648,7 +648,7 @@ if (operacao_unimedida == 4){
         printf("\n 6) Miligrama (mg) --> Grama (g)");
         printf("\n-----------------------------------------\n\n");
 
-        printf("Digite o n˙mero (1-6) para a determinada operaÁ„o: ");
+        printf("Digite o n√∫mero (1-6) para a determinada opera√ß√£o: ");
         scanf("%d" , &operacao_peso);
 
         if(operacao_peso == 1){
@@ -803,10 +803,10 @@ if(funcao == 4){
     printf(" |____/|_|\\_\\\\___/|_____/____|  \n\n\n");
     printf(" | CHUTAR ALTERNATIVAS |\n\n");
     int numero;
-            printf(" Quantas alternativas tem a quest„o?: ");
+            printf(" Quantas alternativas tem a quest√£o?: ");
             scanf("%d", &numero);
             int sorteio = 1 + (rand() % numero);
-            printf("\n N˙mero sorteado: %d\n", sorteio);
+            printf("\n N√∫mero sorteado: %d\n", sorteio);
     }
 
 
@@ -817,16 +817,16 @@ if(funcao == 5){
     printf(" \\___ \\| ' /| | | | |     / /   \n");
     printf("  ___) | . \\| |_| | |___ / /_   \n");
     printf(" |____/|_|\\_\\\\___/|_____/____|  \n\n\n");
-    printf(" | SIM ou N√O |\n\n");
+    printf(" | SIM ou N√ÉO |\n\n");
     int sorteio = rand() % 2;
-            printf(sorteio == 0 ? "      SIM\n" : "      N√O\n");
+            printf(sorteio == 0 ? "      SIM\n" : "      N√ÉO\n");
 
 }
 
 
 printf("\n=====================================");
 printf("\n Fim do programa...\n");
-printf("\n Deseja voltar ao inÌcio? (s/n): ");
+printf("\n Deseja voltar ao in√≠cio? (s/n): ");
 scanf(" %c", &resposta);
 printf("\n=====================================\n\n");
 printf(" ==========================");
@@ -917,21 +917,21 @@ else{
 
             while (1) {
             printBoard(board);
-            printf("Vez de %s (%c). Digite um n˙mero de 1 a 9 para a sua jogada: ", currentPlayer == 0 ? jogador1 : jogador2, currentSymbol);
+            printf("Vez de %s (%c). Digite um n√∫mero de 1 a 9 para a sua jogada: ", currentPlayer == 0 ? jogador1 : jogador2, currentSymbol);
             scanf("%d", &position);
 
             int row = (position - 1) / SIZE;
             int col = (position - 1) % SIZE;
 
             if (position < 1 || position > 9 || board[row][col] != EMPTY) {
-                printf("Movimento inv·lido! Tente novamente.\n");
+                printf("Movimento inv√°lido! Tente novamente.\n");
                 continue;
             }
                 board[row][col] = currentSymbol;
 
             if (checkWin(board, currentSymbol)) {
                 printBoard(board);
-                printf("ParabÈns %s! VocÍ ganhou!\n", currentPlayer == 0 ? jogador1 : jogador2);
+                printf("Parab√©ns %s! Voc√™ ganhou!\n", currentPlayer == 0 ? jogador1 : jogador2);
                 break;
             }
 
