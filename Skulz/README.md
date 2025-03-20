@@ -13,22 +13,6 @@ O nome **Skulz** é um trocadilho entre **"School"** (escola) e **"Skull"** (cav
 - ✅ **Sim ou Não**
 - 🥔 **Easter Egg escondido!**
 
-## Como Executar
-1. Clone este repositório:
-   ```sh
-   git clone https://github.com/seuusuario/skulz.git
-   ```
-2. Compile com GCC:
-   ```sh
-   gcc skulz.c -o skulz
-   ```
-3. Execute:
-   ```sh
-   ./skulz
-   ```
-
-No Windows, use o **Code::Blocks** ou **Dev-C++**.
-
 📢 Se gostou, deixe uma estrela ⭐ no repositório!
 
 
@@ -48,22 +32,6 @@ The name **Skulz** is a wordplay between **"School"** and **"Skull"**, combining
 - 🎯 **Alternative Choice Helper**
 - ✅ **Yes or No Decision Maker**
 - 🥔 **Hidden Easter Egg!**
-
-## How to Run
-1. Clone this repository:
-   ```sh
-   git clone https://github.com/seuusuario/skulz.git
-   ```
-2. Compile with GCC:
-   ```sh
-   gcc skulz.c -o skulz
-   ```
-3. Run:
-   ```sh
-   ./skulz
-   ```
-
-On Windows, use **Code::Blocks** or **Dev-C++**.
 
 📢 **If you like it, give a ⭐ to the repository!**
 
