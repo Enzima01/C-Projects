@@ -34,7 +34,7 @@ No Windows, use o **Code::Blocks** ou **Dev-C++**.
 
 # ENG |
 
-# Skulz - The C Assistant for Students
+# Skulz 💀
 
 ## About the Project
 **Skulz** was created in February 2025 as a personal project to improve my **C** skills. The goal is to provide useful tools for students, helping with common calculations and conversions.
