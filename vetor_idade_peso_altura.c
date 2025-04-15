@@ -1,3 +1,16 @@
+/* PTBR |
+Programa que coleta dados de 10 pessoas, incluindo idade, peso (em kg) e altura (em cm), e realiza as seguintes análises:
+- Calcula a média das idades inseridas
+- Conta quantas pessoas possuem peso superior a 90kg e altura inferior a 1,50m
+- Conta quantas pessoas de idade entre 10 e 30 anos, com altura superior a 1,90m e exibe a porcentagem de pessoas que se enquadram nesse critério
+
+EN | 
+Program that collects data from 10 people, including age, weight (in kg), and height (in cm), and performs the following analyses:
+- Calculates the average of the entered ages
+- Counts how many people weigh more than 90kg and are shorter than 1.50m
+- Counts how many people are between 10 and 30 years old and taller than 1.90m, then displays the percentage of people who meet this criterion
+*/
+
 #include <stdio.h>
 
 int main(){
