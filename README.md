@@ -1,4 +1,4 @@
-# C-Projects
+## C-Projects
 
 # PT-BR
 Esses projetos foram desenvolvidos por mim ao longo do meu aprendizado na linguagem C. Alguns foram feitos durante a faculdade e outros em casa, como parte do meu treino e aperfeiçoamento constante. Comecei a estudar C em agosto de 2024 e desde então venho praticando regularmente, evoluindo minhas habilidades e aprimorando meus códigos.
